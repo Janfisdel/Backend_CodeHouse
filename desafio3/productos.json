@@ -1,0 +1,80 @@
+[
+  {
+      "title": "Jean Jazmín",
+      "price": 3150,
+      "thumbnail": "https://res.cloudinary.com/janfis/image/upload/v1645743841/Backend/jean_jazmin_kknftk.jpg",
+      "id": 1
+    },
+    {
+      "title": "Jean Tina",
+      "price": 3050,
+      "thumbnail": "https://res.cloudinary.com/janfis/image/upload/v1645743841/Backend/jean_tina_iskl5z.jpg",
+      "id": 2
+    },
+    {
+      "title": "Mini Budal",
+      "price": 1845,
+      "thumbnail": "https://res.cloudinary.com/janfis/image/upload/v1645743840/Backend/mini_budal_qrs1dw.jpg",
+      "id": 3
+    },
+    {
+      "title": "Short Toury",
+      "price": 789,
+      "thumbnail":"https://res.cloudinary.com/janfis/image/upload/v1645743915/Backend/short_toury_ktyddz.jpg",
+      "id":4
+    },
+    {
+      "title": "Vestido Medina",
+      "price": 1425,
+      "thumbnail":"https://res.cloudinary.com/janfis/image/upload/v1646433435/Backend/vestido_medina_hzwnen.jpg",
+      "id":5
+    },
+    {
+      "title": "Mochila Butter",
+      "price": 2344,
+      "thumbnail":"https://res.cloudinary.com/janfis/image/upload/v1646433435/Backend/mochila_butter_pr5toy.jpg",
+      "id":6
+    },
+    {
+      "title": "Bandolera Coffe",
+      "price": 1385,
+      "thumbnail":"https://res.cloudinary.com/janfis/image/upload/v1646433434/Backend/bandolera_coffe_poaeau.jpg",
+      "id":7
+    },
+    {
+      "title": "Morral Cerdena",
+      "price": 2425,
+      "thumbnail":"https://res.cloudinary.com/janfis/image/upload/v1646433433/Backend/morral_cerdena_c1wwx4.jpg",
+      "id":8
+    },
+    {
+      "title": "Blazer Ferrier",
+      "price": 3425,
+      "thumbnail":"https://res.cloudinary.com/janfis/image/upload/v1646433432/Backend/blazer_ferrier_cju7xl.jpg",
+      "id":9
+    },
+    {
+      "title": "Remera Wild",
+      "price": 995,
+      "thumbnail":"https://res.cloudinary.com/janfis/image/upload/v1646433430/Backend/remera_wild_gdunjl.jpg",
+      "id":10
+    },
+    {
+      "title": "Pantalon Essence",
+      "price": 2555,
+      "thumbnail":"https://res.cloudinary.com/janfis/image/upload/v1646433430/Backend/pantalon_essence_aevwg8.jpg",
+      "id":11
+    },
+    {
+      "title": "Top Hover",
+      "price": 1145,
+      "thumbnail":"https://res.cloudinary.com/janfis/image/upload/v1646433429/Backend/top_hovet_uc2rlq.jpg",
+      "id":12
+    },
+    {
+      "title": "Top Borello",
+      "price": 1025,
+      "thumbnail":"https://res.cloudinary.com/janfis/image/upload/v1646433429/Backend/top_borello_ezrkxg.jpg",
+      "id":13
+    }
+]

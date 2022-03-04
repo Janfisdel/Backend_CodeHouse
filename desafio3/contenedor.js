@@ -88,36 +88,27 @@ class Contenedor {
       console.log("Error al borrar los productos");
     }
   }
-  // const fs = require('fs')
-  // fs.unlink(this.archivo, error =>{
-  //   if(error){
-  //     console.log('No es pudo borrar el archivo')
-  //   }else{
-  //     console.log('Archivo eliminado')
-  //   }
-  // })
+  
 }
 
-async function desafio() {
-  const productos = new Contenedor("productos.json");
+// async function desafio() {
+//   const productos = new Contenedor("productos.json");
 
-  const toury = {
-    title: "Short Toury",
-    price: 789,
-    thumbnail:
-      "https://res.cloudinary.com/janfis/image/upload/v1645743915/Backend/short_toury_ktyddz.jpg",
-  };
-  await productos.save(toury);
+//   const toury = {
+//     title: "Short Toury",
+//     price: 789,
+//     thumbnail:
+//       "https://res.cloudinary.com/janfis/image/upload/v1645743915/Backend/short_toury_ktyddz.jpg",
+//   };
+//   await productos.save(toury);
 
-  const buscarID = await productos.getByID(2);
-  console.log(
-    `El producto buscado es ${buscarID.title}, con precio $ ${buscarID.price}, imagen: ${buscarID.thumbnail}`
-  );
-  const todosProductos = await productos.getAll();
-  console.table(todosProductos);
+  //const buscarID = await productos.getByID(2);
+  //console.log(`El producto buscado es ${buscarID.title}, con precio $ ${buscarID.price}, imagen: ${buscarID.thumbnail}`);
+ // const todosProductos = await productos.getAll();
+ //console.table(todosProductos);
 
-  await productos.deleteByID(2);
-  await productos.deleteAll();
-}
+  //await productos.deleteByID(2);
+  //await productos.deleteAll();
+//}
 
-desafio();
+module.exports = Contenedor
