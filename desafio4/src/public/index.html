@@ -8,15 +8,15 @@
 </head>
 <body>
     <h1>Formulario de productos</h1>
-  <form action="/api/productos" method="POST">
+  <form action="/api/productos" method="POST"enctype="multipart/form-data">
     <label for="title">Producto: </label>
     <input type="text" name="title"></input>
     <label for="precio">Precio: </label>
     <input type="text" name="Precio"></input>
     <label for="thumbnail">imagen: </label>
-    <input type="text" name="thumbnail"></input>
+    <input type="file" name="thumbnail"></input>
     <button type="submit">Enviar Producto</button>
   </form>
 
-</body>
+
 </html>

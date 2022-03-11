@@ -1,4 +1,17 @@
 const express = require('express')
+
+
+const multer = require('multer');
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, "uploads");
+  },
+  filename: function (req, file, cb) {
+    cb(null, file.originalname);
+  },
+});
+
+const upload = multer({ storage: storage });
 const Contenedor = require('./contenedor')
 
 const app = express()
@@ -34,15 +47,16 @@ routerProductos.get("/:id", async (req, res)=>{
 
 })
 
-routerProductos.post('/', middle, async(req, res)=>{
+routerProductos.post('/', upload.single("thumbnail"), middle, async(req, res)=>{
     const todos = await productos.getAll()
     const {body}=req
+
     let id = 0
     let arrID = todos.map(prod=>prod.id)
     if (arrID.length !== 0) {
         id = Math.max(...arrID)
     } 
-    productos.save( {...body, id:id+1})
+    productos.save( {...body,thumbnail: req.file.path  ,id:id+1})
     res.status(200).json(`Producto agregado con id ${id+1}`)
 })
 

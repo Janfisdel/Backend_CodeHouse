@@ -1,21 +1,26 @@
 [
-    {
-      "title": "Jean Jazmín",
-      "price": 3150,
-      "thumbnail": "https://res.cloudinary.com/janfis/image/upload/v1645743841/Backend/jean_jazmin_kknftk.jpg",
-      "id": 1
-    },
-    {
-      "title": "Jean Tina",
-      "price": 3050,
-      "thumbnail": "https://res.cloudinary.com/janfis/image/upload/v1645743841/Backend/jean_tina_iskl5z.jpg",
-      "id": 2
-    },
-    {
-      "title": "Mini Budal",
-      "price": 1845,
-      "thumbnail": "https://res.cloudinary.com/janfis/image/upload/v1645743840/Backend/mini_budal_qrs1dw.jpg",
-      "id": 3
-    }
-  ]
-  
+  {
+    "title": "Jean Jazmín",
+    "price": 3150,
+    "thumbnail": "https://res.cloudinary.com/janfis/image/upload/v1645743841/Backend/jean_jazmin_kknftk.jpg",
+    "id": 1
+  },
+  {
+    "title": "Jean Tina",
+    "price": 3050,
+    "thumbnail": "https://res.cloudinary.com/janfis/image/upload/v1645743841/Backend/jean_tina_iskl5z.jpg",
+    "id": 2
+  },
+  {
+    "title": "Mini Budal",
+    "price": 1845,
+    "thumbnail": "https://res.cloudinary.com/janfis/image/upload/v1645743840/Backend/mini_budal_qrs1dw.jpg",
+    "id": 3
+  },
+  {
+    "title": "Mochila butter",
+    "Precio": "1458",
+    "thumbnail": "uploads/mochila_butter_pr5toy.jpg",
+    "id": 4
+  }
+]
