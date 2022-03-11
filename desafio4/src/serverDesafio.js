@@ -9,6 +9,12 @@ app.use(express.static("./src/public"));
 const routerProductos = express.Router()
 const productos = new Contenedor('./src/productos.json')
 
+const middle = (req, res, next)=>{
+ console.log('Producto agregado a las', new Date().toLocaleString())
+ next()
+}
+
+
 routerProductos.get("/", async (req, res)=>{
      const todos = await productos.getAll()
      res.status(200).send(todos)
@@ -28,7 +34,7 @@ routerProductos.get("/:id", async (req, res)=>{
 
 })
 
-routerProductos.post('/', async(req, res)=>{
+routerProductos.post('/', middle, async(req, res)=>{
     const todos = await productos.getAll()
     const {body}=req
     let id = 0
@@ -70,6 +76,8 @@ routerProductos.put('/:id', async(req, res)=>{
         }
     
     })
+    
+    
     
 
 
