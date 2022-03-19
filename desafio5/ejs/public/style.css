@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+}
+nav{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 2rem
+}
+.bg-light{
+    background-color: rgb(211, 85, 211) !important;
+    top: 0;
+    z-index: 1;
+    display: blockr;
+}
+
+.nav-item{
+    margin: 0 2rem;
+}
+
+.titulo{
+    margin: 0 5rem;
+    color: rgb(95, 6, 95);
+    
+}
+
+.subTitulo{
+    margin: 1rem 7rem;
+    font-weight: bold;
+}
+
+.containerFormulario{
+    margin:1rem 8rem;
+}
+
+
+.btn-primary {
+    background-color: rgb(206, 22, 206)
+}
+
+.btn-primary:hover{
+    background-color: rgb(146, 19, 146);
+    color: black;
+}
+.tablaProductos{
+    margin: 5rem;
+}
+.imgProducto{
+    width: 5rem;
+    height: 5rem;
+}

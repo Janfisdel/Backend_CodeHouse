@@ -1,0 +1,22 @@
+<h1 class="titulo">Ingrese un producto</h1>
+
+<div class="containerFormulario">
+  <form action="/productos" method="POST">
+    <div class="mb-3">
+      <label for="title" class="form-label">Nombre del producto</label>
+      <input type="text" class="form-control" placeholder="Producto" name="title"/>
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Precio</label>
+      <input type="number" class="form-control" placeholder="Precio"name="price" />
+      <label for="thumbnail" class="form-label">Imagen</label>
+      <input type="text" class="form-control" placeholder="URL" name="thumbnail" />
+
+    </div>
+    <div class="containerButton">
+      <button type="submit" class="btn btn-primary">Cargar productos</button>
+    </div>
+    
+  </form>
+
+</div>

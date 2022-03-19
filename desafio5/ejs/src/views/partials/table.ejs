@@ -1,0 +1,26 @@
+<h1 class="titulo">Vista de productos</h1>
+
+<div class="tablaProductos">
+ <table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <% productos.forEach(function(prod){ %>
+            <tr>
+                <td><%= prod.title %></td>
+                <td> $ <%= prod.price %></td>
+                <td><img alt="foto" class="imgProducto" src=<%=prod.thumbnail %>></td>
+            </tr>
+
+
+
+        <% }) %>
+    </tbody>
+</table>
+</div>

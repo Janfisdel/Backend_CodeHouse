@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Mochila Buttler",
+    "price": "2547",
+    "thumbnail": "https://res.cloudinary.com/janfis/image/upload/v1646433435/Backend/mochila_butter_pr5toy.jpg",
+    "id": 1
+  },
+  {
+    "title": "Short Toury",
+    "price": "2111",
+    "thumbnail": "https://res.cloudinary.com/janfis/image/upload/v1645743915/Backend/short_toury_ktyddz.jpg",
+    "id": 2
+  }
+]
