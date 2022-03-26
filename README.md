@@ -12,6 +12,7 @@
 | Desafío 3   | Servidor con Express |
 | Desafío 4   | API RESTful |
 | Desafío 5   | Motores de Plantillas |
+| Desafío 6   | Websockets |
 
 
 ## Creado por ✒️
