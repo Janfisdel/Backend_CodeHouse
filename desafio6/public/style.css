@@ -1,0 +1,64 @@
+.titulo {
+    color:rgb(236, 95, 95);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.884);
+    z-index: 1;
+    top:0;
+    
+}
+
+.tablaProductos{
+    margin: 5rem;
+}
+.imgProducto{
+    width: 5rem;
+    height: 5rem;
+}
+
+.subTitulo{
+    margin: 1rem 7rem;
+    font-weight: bold;
+}
+
+.container{
+    margin:1rem 8rem;
+}
+
+
+.btn-primary {
+    background-color: rgb(206, 22, 206) !important
+    
+}
+
+.btn-primary:hover{
+    background-color: rgb(146, 19, 146) !important;
+    
+}
+
+
+.tablaProductos{
+    margin: 5rem;
+}
+.imgProducto{
+    width: 5rem;
+    height: 5rem;
+}
+
+.usuario{
+    color:blue;
+    font-weight: bold;
+}
+
+.fecha{
+    color: brown;
+    font-weight: 100;
+}
+.mensaje{
+    color:green;
+    font-weight: bold;
+}
+
+.chat {
+    border:1px solid black;
+}
