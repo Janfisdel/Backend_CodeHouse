@@ -13,6 +13,7 @@
 | Desafío 4   | API RESTful |
 | Desafío 5   | Motores de Plantillas |
 | Desafío 6   | Websockets |
+| Desafío 7   | Primera entrega Proyecto Final |
 
 
 ## Creado por ✒️

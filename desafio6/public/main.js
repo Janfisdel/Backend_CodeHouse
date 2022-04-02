@@ -4,7 +4,7 @@ function render(data) {
     const html = data.map((elem, index) => {
         return(`<tr>
                 <td>${elem.title}</td>
-                <td>${elem.price}</td>
+                <td>$ ${elem.price}</td>
                 <td><img alt="foto" class="imgProducto" src=${elem.thumbnail}></td>
                 </tr>`)
     })

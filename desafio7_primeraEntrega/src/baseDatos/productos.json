@@ -1,0 +1,52 @@
+[
+  {
+    "nombre": "Bandolera Coffe",
+    "descripcion": "Cartera color mostaza de 30cmx15cm",
+    "codigo": "coffe123",
+    "foto": "https://res.cloudinary.com/janfis/image/upload/v1646433434/Backend/bandolera_coffe_poaeau.jpg",
+    "precio": 3214,
+    "stock": 10,
+    "timestamp": 1648602467849,
+    "id": 1
+  },
+  {
+    "nombre": "Pantalón Essence",
+    "descripcion": "Pantalón ecocuero color negro, tiro alto, talle 36",
+    "codigo": "essence123",
+    "foto": "https://res.cloudinary.com/janfis/image/upload/v1646433430/Backend/pantalon_essence_aevwg8.jpg",
+    "precio": 6214,
+    "stock": 12,
+    "timestamp": 1648602540712,
+    "id": 2
+  },
+  {
+    "nombre": "Remera Wild",
+    "descripcion": "Crop top color gris con inscripciones, talle único",
+    "codigo": "wild123",
+    "foto": "https://res.cloudinary.com/janfis/image/upload/v1646433430/Backend/remera_wild_gdunjl.jpg",
+    "precio": 912,
+    "stock": 7,
+    "timestamp": 1648602608403,
+    "id": 3
+  },
+  {
+    "nombre": "Short Toury",
+    "descripcion": "Short de ecocuero color rojo, talle 34",
+    "codigo": "toury123",
+    "foto": "https://res.cloudinary.com/janfis/image/upload/v1645743915/Backend/short_toury_ktyddz.jpg",
+    "precio": 2454,
+    "stock": 14,
+    "timestamp": 1648602706401,
+    "id": 4
+  },
+  {
+    "nombre": "Jean Tina",
+    "descripcion": "Jean color celeste, tiro bajo, con piernas acampanadas y roturas",
+    "codigo": "tina123",
+    "foto": "https://res.cloudinary.com/janfis/image/upload/v1645743841/Backend/jean_tina_iskl5z.jpg",
+    "precio": 7454,
+    "stock": 14,
+    "timestamp": 1648602768134,
+    "id": 5
+  }
+]

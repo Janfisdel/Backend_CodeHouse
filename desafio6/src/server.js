@@ -17,11 +17,9 @@ const baseProductos = new Contenedor('./src/productos.json')
 const baseMensajes =new Contenedor('./src/mensajes.json')
 
 io.on('connection', async(socket) => {
-    const  productos = await baseProductos.getAll()
-    const mensajes = await baseMensajes.getAll()
     console.log("💻 Nuevo usuario conectado!");
-    socket.emit('productosBack', productos)
-    socket.emit('mensajesPrevios', mensajes)
+    socket.emit('productosBack', await baseProductos.getAll())
+    socket.emit('mensajesPrevios', await baseMensajes.getAll())
 
     socket.on('productoNuevo', async(data) => {
         await baseProductos.save(data)
